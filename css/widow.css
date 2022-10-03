@@ -1,0 +1,36 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.hidden { display: none; }
+
+html, body { height: 100% }
+
+body { 
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('../img/images/denim.png');
+}
+
+/* main header rules */
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+#widow-profile { width: 300px; padding: 10px 0; }
+
+.panels { list-style-type: none; }
+.panels li { display: inline-block; }
+
+.panels li img { 
+    width: 150px;
+    cursor: pointer;
+}
