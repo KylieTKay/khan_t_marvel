@@ -113,3 +113,29 @@ footer {
     background-color: rgb(40, 37, 37);
 }
 
+.lightbox {
+    width: 100vw; /*view*/
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.85);
+
+    display: none;
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading { text-align: left;}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+}
