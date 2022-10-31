@@ -1,3 +1,4 @@
+/*these all apply to body image*/
 * {
     border: none;
     padding: 0;
@@ -44,7 +45,7 @@ header {
 
 .characters li { 
     display: inline-block; 
-    height: 120px;
+    height: 220px;
     margin: 10px 8px;
 
     background-color: black;
@@ -55,6 +56,7 @@ header {
 }
 
 .characters li h5 { 
+    color: white;
     padding: 12px 8px;
 }
 
@@ -115,6 +117,7 @@ footer {
     background-color: rgb(40, 37, 37);
 }
 
+/* lightbox rule here */
 .lightbox {
     width: 100vw;
     height: 100vh;
@@ -133,9 +136,31 @@ footer {
     display: none;
 }
 
-/*.lightbox_close {
+/*#lightbox {
+    background-image: url("../img/images/Cap_LB_Bg.png");
+}
+repeat 2-4,6*/
+#lightbox5 {
+    background-image: url("../img/images/Thor_LB_Bg.png");
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
     
-}*/
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightbox_close:hover{ 
+    opacity: 0.5;
+    color: brown;
+}
+
 .lightbox article {
     width: 55%;
     margin-left: 40%;
@@ -149,3 +174,5 @@ footer {
     margin-left: 0;
     padding-top: 2em;
 }
+
+.lightbox:target { display: block;}
