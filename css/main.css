@@ -58,6 +58,8 @@ header {
     padding: 12px 8px;
 }
 
+.characters li a { text-decoration: none;}
+
 /* sprite */
 .red_bumper{
     width: 100%;
@@ -114,7 +116,7 @@ footer {
 }
 
 .lightbox {
-    width: 100vw; /*view*/
+    width: 100vw;
     height: 100vh;
 
     position: absolute;
@@ -122,10 +124,18 @@ footer {
     bottom: 0;
 
     background-color: rgba(0, 0, 0, 0.85);
+    background-image: url("../img/images/Cap_LB_Bg.png");
+    background-repeat: no-repeat;
+
+    background-size: 55vh;
+    background-position: 40px bottom;
 
     display: none;
 }
 
+/*.lightbox_close {
+    
+}*/
 .lightbox article {
     width: 55%;
     margin-left: 40%;
